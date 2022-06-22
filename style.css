@@ -5,9 +5,16 @@
 }
 html{
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
 ul li{
     list-style-type: none;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: auto;
 }
 .header{
     top: 0;
@@ -41,4 +48,155 @@ ul li{
     background-image: url(images/chicago.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.band{
+    position: relative;
+    top: 120px;
+    width: 60%;
+    margin: auto;
+    height: auto;
+    margin-bottom: 34px;
+}
+.band h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin: 10px 0;
+}
+.band h2+p{
+    font-style: italic;
+    text-align: center;
+    opacity: 0.6;
+    margin: 15px 0;
+}
+.band .text{
+    text-align: justify;
+    margin: 15px 0;
+}
+.band .img-wrapper{
+    display: flex;
+    padding-bottom: 64px;
+}
+.band .wrapper1{
+    flex: 1;
+}
+.band .wrapper1 p{
+    text-align: center;
+    margin: 15px 0;
+}
+.wrapper1 img{
+    width: 60%;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    margin-left: 20%;
+}
+.tour-dates-wrapper{
+    position: relative;
+    width: 100%;
+    height: 870px;
+    top: 135px;
+    background-color: black;
+}
+.tour-dates-sub{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    color: white;
+}
+.tour-dates-sub h2{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 75px 0 13px;
+}
+.tour-dates-sub h2+p{
+    font-style: italic;
+    opacity: 0.6;
+    text-align: center;
+}
+.tour-dates-sub .months{
+    margin-top: 30px;
+    background-color: white;
+    color: #757575;
+    list-style-type: none;
+}
+.months li:not(:last-of-type){
+    border-bottom: 1px solid #757575;
+}
+.months li{
+    padding: 10px 20px;
+}
+.months li:not(:last-of-type) span{
+    color: white;
+    background-color: #f44336;
+    margin-left: 16px;
+    text-align: center;
+    padding: 1px 8px;
+}
+.months li:last-of-type span{
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+    margin-left: 85%;
+
+}
+.city-wrapper-img{
+    display: flex;
+    padding-top: 32px;
+}
+.wrapper-img:not(:last-child){
+    padding-right: 16px;
+    
+}
+.wrapper-img img{
+    width: 100%;
+}
+.wrapper-img img:hover{
+    opacity: 0.6;
+}
+.wrapper-img img+div{
+    padding: 0 10px;
+    background-color: white;
+    color: black;
+}
+.wrapper-img .city{
+    padding: 15px 0;
+    font-weight: bold;
+}
+.wrapper-img .date{
+    padding: 15px 0;
+    opacity: 0.6;
+}
+.wrapper-img p:last-of-type{
+    padding-bottom: 16px;
+    font-weight: 400;
+}
+.wrapper-img button{
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+}
+.wrapper-img button:hover{
+    color: #000;
+    background-color: #ccc;
+}
+.contact{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    top: 135px;
+}
+.contact-sub{
+    position: absolute;
+    width: 60%;
+    background-color: blueviolet;
+    height: 100px;
+    margin-left: 20%;
 }
