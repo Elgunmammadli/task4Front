@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 
 </head>
@@ -19,18 +21,25 @@
             <li><a href="">Band</a></li>
             <li><a href="">Tour</a></li>
             <li><a href="">Contact</a></li>
-            <li><a href="">More</a>
-               <ul class="dropdown">
-                <li><a href="">Merchandise</a></li>
-                <li><a href="">Extras</a></li>
-                <li><a href="">Media</a></li>
-               </ul>
-            </li>
+            
+            <li><a href="">More</a><i class="fa fa-caret-down"></i></li>
+            <div class="dropdown">
+               <div><a href="">Merchandise</a></div>
+               <div><a href="">Extras</a></div>
+               <div><a href="">Media</a></div>
+            </div>
           </ul>
+
        </div>
+
+        <div class="search">
+         <i class="fa fa-search" style="color: white;"></i>
+        </div>
     </div>
     
-    <div class="main"></div>
+    <div class="main">
+      <img src="assets/images/chicago.jpg" alt="">
+    </div>
 
     <section class="band">
          <h2>The Band</h2>
@@ -42,17 +51,17 @@
          <div class="img-wrapper">
             <div class="wrapper1">
                <p>Name</p>
-               <img src="images/bandmember.jpg" alt="">
+               <img src="assets/images/bandmember.jpg" alt="">
             </div>
 
             <div class="wrapper1">
                <p>Name</p>
-               <img src="images/bandmember.jpg" alt="">
+               <img src="assets/images/bandmember.jpg" alt="">
             </div>
 
             <div class="wrapper1">
                <p>Name</p>
-               <img src="images/bandmember.jpg" alt="">
+               <img src="assets/images/bandmember.jpg" alt="">
             </div>
          </div>
     </section>
@@ -75,7 +84,7 @@
        <!-- images -->
           <div class="city-wrapper-img">
             <div class="wrapper-img">
-               <img src="images/newyork.jpg" alt="">
+               <img src="assets/images/newyork.jpg" alt="">
                <div>
                   <p class="city">New York</p>
                   <p class="date">Fri 27 Nov 2016</p>
@@ -88,7 +97,7 @@
             
 
             <div class="wrapper-img">
-               <img src="images/paris.jpg" alt="">
+               <img src="assets/images/paris.jpg" alt="">
                <div>
                   <p class="city">Paris</p>
                   <p class="date">Sat 28 Nov 2016</p>
@@ -99,7 +108,7 @@
             </div>
 
             <div class="wrapper-img">
-               <img src="images/sanfran.jpg" alt="">
+               <img src="assets/images/sanfran.jpg" alt="">
                <div>
                   <p class="city">San Francisco</p>
                   <p class="date">Sun 29 Nov 2016</p>
@@ -113,12 +122,51 @@
     </section>
 
     <section class="contact">
-      <div class="contact-sub">
+      <div class="contact-title">
          <h2>Contact</h2>
          <p>Fan? Drop a note!</p>
-         
       </div>
+         
+         <div class="contact-sub">
+            <div class="info">
+               <div class="location">
+                  <img src="assets/icons/icomoon/SVG/location.svg" alt=""> 
+                  <span> Chicago, US</span>
+               </div>
+               <div class="phone">
+                  <img src="assets/icons/icomoon/SVG/phone.svg" alt="">
+                  <span> Phone: +99470-620-59-55</span>
+               </div>
+               <div class="mail">
+                  <img src="assets/icons/icomoon/SVG/envelop.svg" alt="">
+                  <span>Email:mmmdlielgun7@gmail.com</span>
+               </div>
+            </div>
+            <div class="inputs">
+               <div class="sub">
+                  <input type="text" placeholder="Name">
+                  <input type="email" placeholder="Email">
+                  <input type="text" placeholder="Message" class="message">
+               </div>
+            </div>
+         </div>
+         <div class="button">
+             <button>Send</button>
+         </div>
     </section>
+
+    <section class="last-img">
+      <img src="images/map.jpg" alt="">
+    </section>
+     
+    <footer>
+      <img src="assets/icons/icomoon/SVG/facebook2.svg" alt="">
+      <img src="assets/icons/icomoon/SVG/instagram.svg" alt="">
+      <img src="assets/icons/icomoon/SVG/snapchat.svg" alt="">
+      <img src="assets/icons/icomoon/SVG/pinterest-p.svg" alt="">
+      <img src="assets/icons/icomoon/SVG/twitter.svg" alt="">
+      <img src="assets/icons/icomoon/SVG/linkedin.svg" alt="">
+    </footer>
    </div>
 </body>
 </html>
