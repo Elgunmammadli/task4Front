@@ -78,7 +78,7 @@ ul li i{
     position: relative;
     top: 120px;
     width: 60%;
-    margin: auto;
+    left: 20%;
     height: auto;
     margin-bottom: 34px;
 }
@@ -309,7 +309,7 @@ footer img:not(:last-child){
 footer img:nth-child(4){
     width: 20px;
 }
-@media only screen and (max-width:600px) {
+  @media only screen and (max-width:600px) {
     .parent-ul li:not(:first-child){
         display: none;
     }
@@ -330,7 +330,7 @@ footer img:nth-child(4){
     }
     .tour-dates-sub{
         width: 100%;
-        /* margin-left: 2%; */
+     margin-left: 2%; 
     }
     .tour-dates-sub h2,.tour-dates-sub p{
         text-align: center;
@@ -339,4 +339,4 @@ footer img:nth-child(4){
     .city-wrapper-img{
         flex-direction: column;
     }
-}
+} 
